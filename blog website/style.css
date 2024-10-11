@@ -1,0 +1,114 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    position: relative;
+}
+
+.head-title{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+header h1 {
+    
+    font-size: 65px;
+}
+
+header p {
+    font-size: 30px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+header input {
+    width: 200vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navv {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: flex-start;
+}
+
+.searchbox {
+    height: 30px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 30px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.searchbox:hover /*input, .searchbox:hover svg*/ {
+    width: 350px;
+}
+
+.searchbox input {
+    width: 300px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+
+    background: transparent;
+    display: flex;
+
+}
+.searchbox svg{
+    width: 25px;
+    height: 25px;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.container .post ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+nav span ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: end;
+}
